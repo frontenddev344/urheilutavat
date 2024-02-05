@@ -1,0 +1,410 @@
+/*global start*/
+li {
+  list-style: none;
+}
+
+a, button {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.primary-btn {
+  color: #0C0B0B;
+  background: #b8e144;
+  padding: 12px 30px;
+  margin: 0;
+  border-radius: 26px;
+  font-weight: 500;
+  display: inline-block;
+  border: 1px solid #0C0B0B;
+}
+.primary-btn:hover {
+  background-color: #fff;
+  color: #b8e144;
+  border: 1px solid #0C0B0B;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 75px;
+  color: #fff;
+  font-family: "Dela Gothic One", sans-serif;
+}
+
+h2 {
+  font-size: 60px;
+  line-height: 75px;
+  font-weight: 500;
+  color: #b8e144;
+}
+
+h3 {
+  font-size: 50px;
+  line-height: 55px;
+  font-weight: 500;
+  color: #fff;
+}
+
+h4 {
+  font-size: 23px;
+  color: #040d17;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-size: 1.6rem;
+  font-family: "Dela Gothic One", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:focus {
+  color: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/*global end*/
+/*header start*/
+header.site-header {
+  background: transparent;
+  font-size: 18px;
+  padding: 20px 0;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  width: 100%;
+  transition: 0.3s;
+}
+
+header.site-header.sticky {
+  background: #0f2000;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  padding: 10px 0;
+  position: fixed;
+}
+
+.site-header .site-nav ul li a.active {
+  color: #fff;
+}
+
+.site-logo img {
+  width: 100%;
+  max-width: 180px;
+}
+
+.site-nav a {
+  padding: 8px 12px !important;
+  display: inline-block;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
+.site-nav a:hover {
+  color: #b8e144;
+}
+
+.site-btn a {
+  color: #0C0B0B;
+  background: #b8e144;
+  padding: 12px 26px;
+  margin: 0;
+  border-radius: 26px;
+  font-weight: 500;
+}
+.site-btn a:hover {
+  background-color: #fff;
+  color: #0C0B0B;
+}
+
+.site-header {
+  padding: 10px 0;
+}
+
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f2000;
+  border-radius: 11px;
+}
+
+.site-nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.closed-menu {
+  display: none;
+}
+
+.menu-toggle {
+  display: none !important;
+}
+
+/*header end*/
+/*home-css-start*/
+.homebanner {
+  position: relative;
+  height: 700px;
+  background: #040d17;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  background-blend-mode: multiply;
+}
+.homebannertext {
+  padding: 150px 0;
+}
+.homebannertext p {
+  color: #fff;
+  margin: 25px 0;
+}
+
+.homebanner img {
+  padding: 80px 0;
+}
+
+.sports {
+  padding: 100px 0;
+  background-color: #040d17;
+}
+
+p.sportpara {
+  color: rgba(170, 170, 170, 0.5333333333);
+}
+
+.sportstext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.sportstext p {
+  color: #fff;
+}
+.sportstext span {
+  color: #b8e144;
+  font-weight: 600;
+}
+.sportstext li i {
+  color: #b8e144;
+  margin-right: 15px;
+}
+.sportstext li {
+  color: #fff;
+}
+.sportstext h3 {
+  margin: 25px 0;
+}
+.sportstext ul {
+  margin: 25px 0;
+}
+
+.sportpicture img {
+  height: 430px;
+  object-fit: cover;
+  max-width: 520px;
+}
+
+.tool-cards {
+  border-radius: 8px;
+  background: rgba(184, 225, 68, 0.8117647059);
+  text-align: center;
+  margin: 0 0 20px;
+  padding: 35px;
+}
+.tool-cards h4 {
+  max-width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 13px;
+  margin-top: 13px;
+}
+.tool-cards img {
+  max-width: 60px;
+}
+
+.tool-cards p {
+  color: #fff;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.card-section {
+  background-color: #040d17;
+}
+.card-section h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.card-section h2 span {
+  color: #b8e144;
+}
+
+.flexcard {
+  background: #040d17;
+  padding: 100px 0;
+}
+.flexcard-title {
+  text-align: center;
+}
+.flexcard-main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin: 0 10px;
+}
+.flexcard-main p {
+  font-size: 14px;
+}
+.flexcard-main h4 {
+  color: #b8e144;
+}
+.flexcard-picture img {
+  height: 203px;
+  object-fit: cover;
+}
+
+.row.flexcardspace {
+  padding-top: 50px;
+}
+
+.information {
+  background: #040d17;
+  padding: 100px 0;
+}
+.information-picture img {
+  max-width: 60px;
+  margin-bottom: 15px;
+}
+.information h3 span {
+  color: #b8e144;
+}
+.information-card h4 {
+  color: #fff;
+}
+.information-card span {
+  color: #fff;
+}
+
+.information-main {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.contactsection {
+  background-color: #040d17;
+}
+
+.about_us_content {
+  padding: 2rem;
+  margin: 30px 0;
+  max-width: 60%;
+  margin: 0 auto;
+}
+.about_us_content p {
+  color: #fff !important;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.form-group {
+  margin-bottom: 2rem;
+}
+
+.input-control {
+  display: block;
+  width: 100%;
+  height: 4rem;
+  border: 1px solid #fff;
+  padding: 2rem 2rem;
+  background: transparent;
+  color: #fff;
+}
+
+.input-control:focus-visible {
+  outline: none;
+}
+
+textarea.input-control {
+  resize: none;
+  height: auto;
+}
+
+.form-group .submit-btn {
+  background: #b8e144;
+  border: 1px solid #fff;
+  transition: all 0.2s linear;
+  display: inline-block;
+  padding: 0.8rem 4rem;
+  color: #fff;
+  text-transform: capitalize;
+}
+.form-group .submit-btn:hover {
+  background-color: #fff;
+  color: #0C0B0B;
+}
+
+.form-group label {
+  display: inline-block;
+  padding-bottom: 5px;
+  color: #b8e144;
+  transition: all 0.2s linear;
+  text-transform: capitalize;
+  font-family: "Barlow", sans-serif;
+}
+
+/*home-css-end*/
+
+
+/*# sourceMappingURL=style.css.map */

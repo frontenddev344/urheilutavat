@@ -1,0 +1,390 @@
+/*global start*/
+@import 'mixins';
+@import 'variables';
+@import 'typography';
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 1.6rem;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:focus {
+    color: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*global end*/
+
+/*header start*/
+header.site-header {
+    background: transparent;
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    width: 100%;
+    transition: .3s;
+}
+
+header.site-header.sticky {
+    background: $clr-green;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding: 10px 0;
+    position: fixed;
+}
+
+.site-header .site-nav ul li a.active {
+    color: $clr-white;
+}
+
+.site-logo img {
+    width: 100%;
+    max-width: 180px;
+}
+
+.site-nav a {
+    padding: 8px 12px !important;
+    display: inline-block;
+    color: $clr-white;
+    font-weight: 500;
+    font-size: 18px;
+
+    &:hover {
+        color: $clr-parrot;
+    }
+}
+
+.site-btn a {
+    color: $clr-black;
+    background: $clr-parrot;
+    padding: 12px 26px;
+    margin: 0;
+    border-radius: 26px;
+    font-weight: 500;
+
+    &:hover {
+        background-color: $clr-white;
+        color: $clr-black;
+    }
+}
+
+.site-header {
+    padding: 10px 0;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $clr-green;
+    border-radius: 11px;
+}
+
+.site-nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.closed-menu {
+    display: none;
+}
+
+.menu-toggle {
+    display: none !important;
+}
+
+
+
+/*header end*/
+
+/*home-css-start*/
+.homebanner {
+    position: relative;
+    height: 700px;
+    background: #040d17;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    background-blend-mode: multiply;
+
+    &text {
+        padding: 150px 0;
+
+        p {
+            color: $clr-white;
+            margin: 25px 0;
+        }
+    }
+}
+
+.homebanner img {
+    padding: 80px 0;
+}
+
+.sports {
+    padding: 100px 0;
+    background-color: $clr-darkblue
+}
+
+p.sportpara {
+    color: #aaaaaa88;
+}
+
+.sportstext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+    p {
+        color: $clr-white;
+    }
+
+    span {
+        color: $clr-parrot;
+        font-weight: 600;
+    }
+
+    li i {
+        color: $clr-parrot;
+        margin-right: 15px;
+    }
+
+    li {
+        color: $clr-white;
+    }
+
+    h3 {
+        margin: 25px 0;
+    }
+
+    ul {
+        margin: 25px 0;
+    }
+}
+
+.sportpicture img {
+    height: 430px;
+    object-fit: cover;
+    max-width: 520px;
+}
+
+.tool-cards {
+    border-radius: 8px;
+    background: #b8e144cf;
+    text-align: center;
+    margin: 0 0 20px;
+    padding: 35px;
+
+    h4 {
+        max-width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 13px;
+        margin-top: 13px;
+    }
+
+    img {
+        max-width: 60px;
+    }
+}
+
+.tool-cards p {
+    color: $clr-white;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.card-section {
+    background-color: $clr-darkblue;
+
+    h2 {
+        color: $clr-white;
+        text-align: center;
+        margin-bottom: 50px;
+
+        span {
+            color: $clr-parrot;
+        }
+    }
+}
+
+.flexcard {
+    background: $clr-darkblue;
+    padding: 100px 0;
+
+    &-title {
+        text-align: center;
+    }
+
+    &-main {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        margin: 0 10px;
+
+        p {
+            font-size: 14px;
+        }
+
+        h4 {
+            color: $clr-parrot;
+        }
+    }
+
+    &-picture {
+        img {
+            height: 203px;
+            object-fit: cover;
+        }
+    }
+}
+
+.row.flexcardspace {
+    padding-top: 50px;
+}
+
+.information {
+    background: $clr-darkblue;
+    padding: 100px 0;
+    &-picture {
+        img{
+            max-width: 60px;
+            margin-bottom: 15px;
+        }
+    }
+    h3 {
+        span {
+            color: $clr-parrot;
+        }
+    }
+    &-card{
+        h4{
+            color: $clr-white;
+           
+        }
+        span{
+            color: $clr-white;
+        }
+    }
+}
+.information-main {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.contactsection {
+background-color: $clr-darkblue;
+}
+.about_us_content {
+    padding: 2rem;
+    margin: 30px 0;
+    max-width: 60%;
+    margin: 0 auto;
+    p{
+        color: $clr-white !important;
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.input-control {
+    display: block;
+    width: 100%;
+    height: 4rem;
+    border: 1px solid $clr-white;
+    padding: 2rem 2rem;
+    background: transparent;
+    color: $clr-white;
+}
+
+.input-control:focus-visible {
+    outline: none;
+}
+
+textarea.input-control {
+    resize: none;
+    height: auto;
+}
+
+.form-group .submit-btn {
+    background: $clr-parrot;
+    border: 1px solid $clr-white;
+    transition: all 0.2s linear;
+    display: inline-block;
+    padding: 0.8rem 4rem;
+    color: $clr-white;
+    text-transform: capitalize;
+
+    &:hover {
+        background-color: $clr-white;
+        color: $clr-black;
+    }
+}
+
+.form-group label {
+    display: inline-block;
+    padding-bottom: 5px;
+    color: $clr-parrot;
+    transition: all 0.2s linear;
+    text-transform: capitalize;
+    font-family: "Barlow", sans-serif;
+}
+
+/*home-css-end*/
+
+
+
+/*# sourceMappingURL=style.css.map */
