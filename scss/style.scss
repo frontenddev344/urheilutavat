@@ -407,5 +407,43 @@ textarea.input-control {
 /*home-css-end*/
 
 
-
+/*terms-css-start*/
+.page-title-article {
+    padding: 25px 0;
+    margin-bottom: 0;
+}
+.page-breadcrumb {
+    position: relative;
+    margin-bottom: 0;
+}
+.page-breadcrumb li {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    padding-right: 15px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
+.page-breadcrumb li a .icon {
+    margin-right: 4px;
+    color: #cee002;
+}
+.page-breadcrumb li:after {
+    position: absolute;
+    content: "\f101";
+    right: -5px;
+    top: 1px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+}
+.page-breadcrumb li:last-child {
+    padding-right: 0;
+    margin-right: 0;
+}
+/*terms-css-end*/
 /*# sourceMappingURL=style.css.map */
