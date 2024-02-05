@@ -50,8 +50,18 @@ h3 {
     line-height: 55px;
     font-weight: 500;
     color: $clr-white;
+    @include mq(xl){
+        font-size: 35px;
+        line-height: 40px;
+    }
+    @include mq(md){
+        font-size: 27px;
+    }
 }
 h4 {
     font-size: 23px;
     color: $clr-darkblue;
+    @include mq(xl){
+        font-size: 19px;
+    }
 }

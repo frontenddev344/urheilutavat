@@ -177,6 +177,13 @@
         }
     }
 }
+
+@media screen and (max-width:768px) {
+    .sportstext h3 {
+        margin: 9px 0;
+    }
+}
+    
 @media screen and (max-width:575px) {
     .site-nav {
         width: 100%;
