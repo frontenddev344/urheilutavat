@@ -404,6 +404,18 @@ textarea.input-control {
   font-family: "Barlow", sans-serif;
 }
 
+.footer {
+  background: #040d17;
+  padding: 100px 0;
+}
+.footerlinks {
+  color: #fff;
+  text-align: center;
+}
+.footerlinks:hover {
+  color: #b8e144;
+}
+
 /*home-css-end*/
 
 

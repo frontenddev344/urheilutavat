@@ -294,27 +294,32 @@ p.sportpara {
 .information {
     background: $clr-darkblue;
     padding: 100px 0;
+
     &-picture {
-        img{
+        img {
             max-width: 60px;
             margin-bottom: 15px;
         }
     }
+
     h3 {
         span {
             color: $clr-parrot;
         }
     }
-    &-card{
-        h4{
+
+    &-card {
+        h4 {
             color: $clr-white;
-           
+
         }
-        span{
+
+        span {
             color: $clr-white;
         }
     }
 }
+
 .information-main {
     display: flex;
     text-align: center;
@@ -322,14 +327,16 @@ p.sportpara {
 }
 
 .contactsection {
-background-color: $clr-darkblue;
+    background-color: $clr-darkblue;
 }
+
 .about_us_content {
     padding: 2rem;
     margin: 30px 0;
     max-width: 60%;
     margin: 0 auto;
-    p{
+
+    p {
         color: $clr-white !important;
         text-align: center;
         margin: 25px 0;
@@ -381,6 +388,20 @@ textarea.input-control {
     transition: all 0.2s linear;
     text-transform: capitalize;
     font-family: "Barlow", sans-serif;
+}
+
+.footer {
+    background: $clr-darkblue;
+    padding: 100px 0;
+
+    &links {
+        color: $clr-white;
+        text-align: center;
+
+        &:hover {
+            color: $clr-parrot;
+        }
+    }
 }
 
 /*home-css-end*/
