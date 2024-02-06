@@ -139,10 +139,8 @@
     font-weight: 600;
     opacity: 0.7;
   }
-}
-@media screen and (max-width: 768px) {
-  .sportstext h3 {
-    margin: 9px 0;
+  .card-section .row {
+    row-gap: 18px;
   }
   .about_us_content {
     max-width: 100%;
@@ -150,6 +148,11 @@
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sportstext h3 {
+    margin: 9px 0;
   }
   .sportstext li i {
     margin-right: 4px;
@@ -159,6 +162,9 @@
   }
   .playinner p {
     font-size: 14px;
+  }
+  .sportpicture img {
+    height: 495px;
   }
 }
 @media screen and (max-width: 767px) {
