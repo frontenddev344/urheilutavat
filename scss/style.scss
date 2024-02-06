@@ -264,12 +264,20 @@ p.sportpara {
         height: 100%;
         margin: 0 10px;
 
+        &:hover {
+            background-color: $clr-parrot;
+        }
+
         p {
             font-size: 14px;
         }
 
         h4 {
             color: $clr-parrot;
+
+            &:hover {
+                color: $clr-black;
+            }
         }
     }
 
@@ -306,10 +314,18 @@ p.sportpara {
         h4 {
             color: $clr-white;
 
+            &:hover {
+                color: $clr-parrot;
+            }
+
         }
 
         span {
             color: $clr-white;
+
+            &:hover {
+                color: $clr-parrot;
+            }
         }
     }
 }
@@ -524,7 +540,7 @@ textarea.input-control {
 }
 
 .privacy-policy {
-    padding: 40px 0;
+    padding: 50px 0;
 
     .content-wrap {
         li {
@@ -538,7 +554,7 @@ textarea.input-control {
 }
 
 .terms {
-    padding: 40px 0;
+    padding: 50px 0;
 
     .content-wrap {
         li {
@@ -561,7 +577,7 @@ textarea.input-control {
 
     p {
         font-size: 16px;
-        padding-bottom: 15px;
+        padding-bottom: 8px;
         color: $clr-black;
     }
 }
@@ -595,5 +611,22 @@ textarea.input-control {
 }
 
 /*terms-conditon-end/
+
+/*cookies-conditon-start*/
+.cookiesbanner {
+    height: 350px;
+    background-color: $clr-darkblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cookies {
+    padding: 50px 0;
+}
+
+/*cookies-conditon-end*/
 
 /*# sourceMappingURL=style.css.map */

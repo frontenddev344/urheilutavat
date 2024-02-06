@@ -330,11 +330,17 @@ p.sportpara {
   height: 100%;
   margin: 0 10px;
 }
+.flexcard-main:hover {
+  background-color: #b8e144;
+}
 .flexcard-main p {
   font-size: 14px;
 }
 .flexcard-main h4 {
   color: #b8e144;
+}
+.flexcard-main h4:hover {
+  color: #0C0B0B;
 }
 .flexcard-picture img {
   height: 203px;
@@ -359,8 +365,14 @@ p.sportpara {
 .information-card h4 {
   color: #fff;
 }
+.information-card h4:hover {
+  color: #b8e144;
+}
 .information-card span {
   color: #fff;
+}
+.information-card span:hover {
+  color: #b8e144;
 }
 
 .information-main {
@@ -545,7 +557,7 @@ textarea.input-control {
 }
 
 .privacy-policy {
-  padding: 40px 0;
+  padding: 50px 0;
 }
 .privacy-policy .content-wrap li {
   font-size: 15px;
@@ -556,7 +568,7 @@ textarea.input-control {
 }
 
 .terms {
-  padding: 40px 0;
+  padding: 50px 0;
 }
 .terms .content-wrap li {
   font-size: 16px;
@@ -573,7 +585,7 @@ textarea.input-control {
 }
 .content-wrap p {
   font-size: 16px;
-  padding-bottom: 15px;
+  padding-bottom: 8px;
   color: #0C0B0B;
 }
 
@@ -605,6 +617,22 @@ textarea.input-control {
 
 /*terms-conditon-end/
 
-/*# sourceMappingURL=style.css.map */
+/*cookies-conditon-start*/
+.cookiesbanner {
+  height: 350px;
+  background-color: #040d17;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cookies {
+  padding: 50px 0;
+}
+
+/*cookies-conditon-end*/
+
 
 /*# sourceMappingURL=style.css.map */
