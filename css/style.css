@@ -43,6 +43,12 @@ h1 {
     line-height: 40px;
   }
 }
+@media screen and (max-width: 575px) {
+  h1 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+}
 
 h2 {
   font-size: 60px;
@@ -53,12 +59,6 @@ h2 {
 @media screen and (max-width: 1024px) {
   h2 {
     font-size: 35px;
-    line-height: 40px;
-  }
-}
-@media screen and (max-width: 575px) {
-  h2 {
-    font-size: 25px;
     line-height: 40px;
   }
 }
