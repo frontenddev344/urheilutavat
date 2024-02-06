@@ -51,8 +51,23 @@ div#main {
     overflow: hidden;
 }
 
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: $clr-white;
+}
+
+
 ::-webkit-scrollbar-thumb {
-    background: red;
+    background: $clr-parrot;
+    border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    -webkit-filter: brightness(120%);
+    filter: brightness(120%);
 }
 
 /*global end*/
@@ -743,6 +758,7 @@ textarea.input-control {
 
 .playinner:hover {
     background-color: $clr-parrot ;
+    border: 1px solid $clr-black;
 
 }
 
@@ -795,6 +811,11 @@ textarea.input-control {
 h2.abouttitle {
     text-align: center;
     margin-bottom: 25px;
+    color: $clr-white;
+
+    & span {
+        color: $clr-parrot;
+    }
 }
 
 .aboutbottom p {
