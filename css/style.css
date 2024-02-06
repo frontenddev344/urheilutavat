@@ -37,12 +37,24 @@ h1 {
   color: #fff;
   font-family: "Dela Gothic One", sans-serif;
 }
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
 
 h2 {
   font-size: 60px;
   line-height: 75px;
   font-weight: 500;
   color: #b8e144;
+}
+@media screen and (max-width: 1024px) {
+  h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
 }
 
 h3 {

@@ -39,6 +39,11 @@ h1 {
     line-height: 75px;
     color: $clr-white;
     font-family: 'Dela Gothic One', sans-serif;
+
+    @include mq(xl) {
+        font-size: 35px;
+        line-height: 40px;
+    }
 }
 
 h2 {
@@ -46,6 +51,11 @@ h2 {
     line-height: 75px;
     font-weight: 500;
     color: $clr-parrot;
+
+    @include mq(xl) {
+        font-size: 35px;
+        line-height: 40px;
+    }
 }
 
 h3 {
