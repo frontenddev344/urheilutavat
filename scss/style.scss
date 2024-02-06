@@ -266,6 +266,7 @@ p.sportpara {
 
         &:hover {
             background-color: $clr-parrot;
+            margin: 0;
         }
 
         p {
@@ -407,6 +408,7 @@ textarea.input-control {
 .footer {
     background-color: $clr-darkblue;
     padding: 50px 0;
+    border-top: 1px solid;
 
     &-links {
         text-align: center;
@@ -650,9 +652,13 @@ textarea.input-control {
         content: '';
         position: absolute;
         inset: 0;
-        background-color: rgba(0, 0, 0, 0.55);
+        background-color: rgba(0, 0, 0, 0.85);
         z-index: -1;
     }
+}
+.contacttext {
+    padding: 50px 0;
+    background: $clr-darkblue;
 }
 /*contact-conditon-end*/
 /*# sourceMappingURL=style.css.map */

@@ -332,6 +332,7 @@ p.sportpara {
 }
 .flexcard-main:hover {
   background-color: #b8e144;
+  margin: 0;
 }
 .flexcard-main p {
   font-size: 14px;
@@ -450,6 +451,7 @@ textarea.input-control {
 .footer {
   background-color: #040d17;
   padding: 50px 0;
+  border-top: 1px solid;
 }
 .footer-links {
   text-align: center;
@@ -654,8 +656,13 @@ textarea.input-control {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.55);
+  background-color: rgba(0, 0, 0, 0.85);
   z-index: -1;
+}
+
+.contacttext {
+  padding: 50px 0;
+  background: #040d17;
 }
 
 /*contact-conditon-end*/
