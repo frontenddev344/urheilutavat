@@ -157,6 +157,9 @@
   .tool-cards {
     padding: 19px;
   }
+  .playinner p {
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 767px) {
   .sports {

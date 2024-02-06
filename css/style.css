@@ -299,6 +299,7 @@ p.sportpara {
   text-align: center;
   margin-bottom: 13px;
   margin-top: 13px;
+  color: #0C0B0B;
 }
 .tool-cards img {
   max-width: 60px;
@@ -726,6 +727,45 @@ textarea.input-control {
 }
 
 /*play-conditon-end*/
+/*about-css-start*/
+.aboutbanner {
+  position: relative;
+  height: 450px;
+  background-image: url(../images/aboutbanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  margin-top: 0;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.aboutbanner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: -1;
+}
+
+.abouttext {
+  background-color: #040d17;
+  padding: 100px 0;
+}
+
+.aboutbottom p {
+  padding-top: 25px;
+}
+
+.abouttext .row {
+  row-gap: 25px;
+}
+
+/*about-css-end*/
 
 
 /*# sourceMappingURL=style.css.map */
