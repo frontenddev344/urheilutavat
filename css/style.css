@@ -285,6 +285,9 @@ p.sportpara {
   object-fit: cover;
   max-width: 520px;
 }
+.sportpicture img:hover {
+  filter: grayscale(7);
+}
 
 .tool-cards {
   border-radius: 8px;
@@ -303,6 +306,10 @@ p.sportpara {
 }
 .tool-cards img {
   max-width: 60px;
+}
+.tool-cards img:hover {
+  transform: translateY(-10px);
+  transition: 0.3s ease-in-out;
 }
 
 .tool-cards p {
@@ -344,6 +351,7 @@ p.sportpara {
 .flexcard-main:hover {
   background-color: #b8e144;
   margin: 0;
+  transition: 0.3s ease;
 }
 .flexcard-main p {
   font-size: 14px;
@@ -716,6 +724,14 @@ textarea.input-control {
   height: 260px;
   width: 100%;
   padding: 20px;
+}
+
+.playinner:hover {
+  background-color: #b8e144;
+}
+
+.playinner:hover h4 {
+  color: #0C0B0B;
 }
 
 .playsection .row {

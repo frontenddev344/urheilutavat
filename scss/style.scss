@@ -203,6 +203,11 @@ p.sportpara {
     height: 430px;
     object-fit: cover;
     max-width: 520px;
+
+    &:hover {
+        filter: grayscale(7);
+    }
+
 }
 
 .tool-cards {
@@ -223,6 +228,11 @@ p.sportpara {
 
     img {
         max-width: 60px;
+
+        &:hover {
+            transform: translateY(-10px);
+            transition: .3s ease-in-out;
+        }
     }
 }
 
@@ -268,6 +278,7 @@ p.sportpara {
         &:hover {
             background-color: $clr-parrot;
             margin: 0;
+            transition: .3s ease;
         }
 
         p {
@@ -706,6 +717,16 @@ textarea.input-control {
     height: 260px;
     width: 100%;
     padding: 20px;
+}
+
+.playinner:hover {
+    background-color: $clr-parrot ;
+
+}
+
+.playinner:hover h4 {
+    color: $clr-black ;
+
 }
 
 .playsection .row {
