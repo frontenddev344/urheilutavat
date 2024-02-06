@@ -3,7 +3,8 @@ li {
   list-style: none;
 }
 
-a, button {
+a,
+button {
   font-family: "Roboto", sans-serif;
 }
 
@@ -14,7 +15,7 @@ p {
   margin-bottom: 0;
 }
 
-.primary-btn {
+.main-btn a {
   color: #0C0B0B;
   background: #b8e144;
   padding: 12px 30px;
@@ -24,10 +25,9 @@ p {
   display: inline-block;
   border: 1px solid #0C0B0B;
 }
-.primary-btn:hover {
+.main-btn a:hover {
   background-color: #fff;
-  color: #b8e144 !important;
-  border: 1px solid #0C0B0B;
+  color: #0C0B0B;
 }
 
 h1 {
@@ -202,25 +202,18 @@ header.site-header.sticky {
 /*header end*/
 /*home-css-start*/
 .homebanner {
-  position: relative;
-  height: 700px;
+  padding: 100px 0;
   background: #040d17;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  object-fit: cover;
-  background-blend-mode: multiply;
 }
 .homebannertext {
-  padding: 150px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
 .homebannertext p {
   color: #fff;
   margin: 25px 0;
-}
-
-.homebanner img {
-  padding: 80px 0;
 }
 
 .sports {
@@ -424,12 +417,15 @@ textarea.input-control {
   background: #040d17;
   padding: 100px 0;
 }
-.footerlinks {
+.footerlinks a {
   color: #fff;
   text-align: center;
 }
-.footerlinks:hover {
+.footerlinks a:hover {
   color: #b8e144;
+}
+.footerlinks {
+  text-align: center;
 }
 
 /*home-css-end*/

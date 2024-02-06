@@ -1,11 +1,12 @@
-
 @import './variables';
 @import './mixins';
 
-li{
+li {
     list-style: none;
 }
-a,button {
+
+a,
+button {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -16,7 +17,7 @@ p {
     margin-bottom: 0;
 }
 
-.primary-btn{
+.main-btn a {
     color: $clr-black;
     background: $clr-parrot;
     padding: 12px 30px;
@@ -25,12 +26,13 @@ p {
     font-weight: 500;
     display: inline-block;
     border: 1px solid $clr-black;
-    &:hover{
-        background-color: $clr-white;
-        color: $clr-parrot !important;
-        border: 1px solid $clr-black;
+
+    &:hover {
+        background-color: #fff;
+        color: #0C0B0B;
     }
 }
+
 h1 {
     font-size: 60px;
     font-weight: 400;
@@ -45,23 +47,28 @@ h2 {
     font-weight: 500;
     color: $clr-parrot;
 }
+
 h3 {
     font-size: 50px;
     line-height: 55px;
     font-weight: 500;
     color: $clr-white;
-    @include mq(xl){
+
+    @include mq(xl) {
         font-size: 35px;
         line-height: 40px;
     }
-    @include mq(md){
+
+    @include mq(md) {
         font-size: 27px;
     }
 }
+
 h4 {
     font-size: 23px;
     color: $clr-darkblue;
-    @include mq(xl){
+
+    @include mq(xl) {
         font-size: 19px;
     }
 }
