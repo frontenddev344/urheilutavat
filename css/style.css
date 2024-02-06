@@ -56,6 +56,12 @@ h2 {
     line-height: 40px;
   }
 }
+@media screen and (max-width: 575px) {
+  h2 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+}
 
 h3 {
   font-size: 50px;
@@ -387,10 +393,13 @@ p.sportpara {
   display: block;
   width: 100%;
   height: 4rem;
-  border: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-top: none;
   padding: 2rem 2rem;
   background: transparent;
   color: #fff;
+  border-left: none;
+  border-right: none;
 }
 
 .input-control:focus-visible {
@@ -425,67 +434,177 @@ textarea.input-control {
   font-family: "Barlow", sans-serif;
 }
 
+/*footer-css-start*/
 .footer {
-  background: #040d17;
-  padding: 100px 0;
+  background-color: #040d17;
+  padding: 50px 0;
 }
-.footerlinks a {
-  color: #fff;
+.footer-links {
   text-align: center;
 }
-.footerlinks a:hover {
+.footer-links ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.footer-logo {
+  max-width: 160px;
+  margin: 0 auto 20px;
+}
+.footer-links h2 {
+  color: #fff;
+}
+.footer-links a {
+  color: #fff;
+}
+.footer-links a:hover {
   color: #b8e144;
 }
-.footerlinks {
+.footer-adresse h2 {
+  color: #fff;
+}
+.footer-adresse p {
+  color: #fff;
+}
+.footer-mails a {
+  color: #fff;
+}
+.footer-mails {
+  display: flex;
+  flex-direction: column;
+}
+
+.mails-names {
+  gap: 12px;
+  display: flex;
+  align-items: end;
+}
+
+.social-signals {
+  margin-top: 25px;
   text-align: center;
 }
+.social-signals i {
+  color: #fff;
+  border-radius: 30px;
+  font-size: 18px;
+  margin: 0 10px;
+  border: 1px solid #fff;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 36px;
+  transition: 0.3s all;
+}
+.social-signals i:hover {
+  color: #b8e144;
+  transform: translateY(-10px);
+}
 
+.footer_bottom {
+  border-top: 1px solid #fff;
+  padding: 10px;
+  margin: 30px 0;
+}
+.footer_bottom p {
+  text-align: center;
+}
+.footer_bottom p a {
+  color: #fff;
+}
+.footer_bottom p a:hover {
+  color: #b8e144;
+}
+
+/*footer-css-end*/
 /*home-css-end*/
-/*terms-css-start*/
-.page-title-article {
-  padding: 25px 0;
-  margin-bottom: 0;
-}
-
-.page-breadcrumb {
+/*privacy-policy start*/
+.privacy__section {
   position: relative;
-  margin-bottom: 0;
+  height: 350px;
+  background-image: url(../images/privacybanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  margin-top: 0;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-
-.page-breadcrumb li {
-  position: relative;
-  display: inline-block;
-  margin-right: 10px;
-  padding-right: 15px;
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 500;
-  text-transform: capitalize;
-  font-family: "Montserrat", sans-serif;
-}
-
-.page-breadcrumb li a .icon {
-  margin-right: 4px;
-  color: #cee002;
-}
-
-.page-breadcrumb li:after {
+.privacy__section::after {
+  content: "";
   position: absolute;
-  content: "\f101";
-  right: -5px;
-  top: 1px;
-  color: #ffffff;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: -1;
+}
+
+.privacy-policy {
+  padding: 40px 0;
+}
+.privacy-policy .content-wrap li {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+  color: #0C0B0B;
+  padding-bottom: 8px;
+}
+
+.terms {
+  padding: 40px 0;
+}
+.terms .content-wrap li {
   font-size: 16px;
-  font-weight: 900;
-  font-family: "Font Awesome 5 Free";
+  font-weight: 400;
+  line-height: normal;
+  color: #0C0B0B;
+  padding-bottom: 8px;
 }
 
-.page-breadcrumb li:last-child {
-  padding-right: 0;
-  margin-right: 0;
+.content-wrap h4 {
+  color: #b8e144;
+  font-size: 21px;
+  margin-bottom: 0;
+}
+.content-wrap p {
+  font-size: 16px;
+  padding-bottom: 15px;
+  color: #0C0B0B;
 }
 
-/*terms-css-end*/
+/*privacy-policy end*/
+/*terms-conditon start*/
+.terms__section {
+  position: relative;
+  height: 350px;
+  background-image: url(../images/termsbanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  margin-top: 0;
+  isolation: isolate;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.terms__section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: -1;
+}
 
+/*terms-conditon-end/
+
+/*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */
