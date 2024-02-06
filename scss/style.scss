@@ -75,7 +75,7 @@ header.site-header.sticky {
 }
 
 .site-header .site-nav ul li a.active {
-    color: $clr-white;
+    color: $clr-parrot;
 }
 
 .site-logo img {
@@ -656,9 +656,11 @@ textarea.input-control {
         z-index: -1;
     }
 }
+
 .contacttext {
     padding: 50px 0;
     background: $clr-darkblue;
 }
+
 /*contact-conditon-end*/
 /*# sourceMappingURL=style.css.map */
