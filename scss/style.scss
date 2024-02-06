@@ -277,9 +277,6 @@ p.sportpara {
         h4 {
             color: $clr-parrot;
 
-            &:hover {
-                color: $clr-black;
-            }
         }
     }
 
@@ -293,6 +290,10 @@ p.sportpara {
 
 .row.flexcardspace {
     padding-top: 50px;
+}
+
+.flexcard-main:hover h4 {
+    color: $clr-black;
 }
 
 .information {

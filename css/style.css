@@ -351,9 +351,6 @@ p.sportpara {
 .flexcard-main h4 {
   color: #b8e144;
 }
-.flexcard-main h4:hover {
-  color: #0C0B0B;
-}
 .flexcard-picture img {
   height: 203px;
   object-fit: cover;
@@ -361,6 +358,10 @@ p.sportpara {
 
 .row.flexcardspace {
   padding-top: 50px;
+}
+
+.flexcard-main:hover h4 {
+  color: #0C0B0B;
 }
 
 .information {
