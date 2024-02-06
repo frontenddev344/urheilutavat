@@ -47,6 +47,14 @@ html {
     width: 100%;
 }
 
+div#main {
+    overflow: hidden;
+}
+
+::-webkit-scrollbar-thumb {
+    background: red;
+}
+
 /*global end*/
 
 /*header start*/
@@ -210,12 +218,17 @@ p.sportpara {
 
 }
 
+.tool-main {
+    height: 100%;
+}
+
 .tool-cards {
     border-radius: 8px;
     background: #b8e144cf;
     text-align: center;
     margin: 0 0 20px;
     padding: 35px;
+    height: 100%;
 
     h4 {
         max-width: 70%;
@@ -769,6 +782,11 @@ textarea.input-control {
 .abouttext {
     background-color: $clr-darkblue;
     padding: 100px 0;
+}
+
+h2.abouttitle {
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 .aboutbottom p {

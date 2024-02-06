@@ -143,6 +143,14 @@ html {
   width: 100%;
 }
 
+div#main {
+  overflow: hidden;
+}
+
+::-webkit-scrollbar-thumb {
+  background: red;
+}
+
 /*global end*/
 /*header start*/
 header.site-header {
@@ -289,12 +297,17 @@ p.sportpara {
   filter: grayscale(7);
 }
 
+.tool-main {
+  height: 100%;
+}
+
 .tool-cards {
   border-radius: 8px;
   background: rgba(184, 225, 68, 0.8117647059);
   text-align: center;
   margin: 0 0 20px;
   padding: 35px;
+  height: 100%;
 }
 .tool-cards h4 {
   max-width: 70%;
@@ -772,6 +785,11 @@ textarea.input-control {
 .abouttext {
   background-color: #040d17;
   padding: 100px 0;
+}
+
+h2.abouttitle {
+  text-align: center;
+  margin-bottom: 25px;
 }
 
 .aboutbottom p {
