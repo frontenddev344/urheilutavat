@@ -730,6 +730,15 @@ textarea.input-control {
     height: 260px;
     width: 100%;
     padding: 20px;
+
+    h3 {
+        font-size: 27px;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-size: 15px;
+    }
 }
 
 .playinner:hover {
@@ -738,18 +747,17 @@ textarea.input-control {
 }
 
 .playinner:hover h4 {
-    color: $clr-black ;
+    color: $clr-black
+}
 
+.playinner:hover p {
+    color: $clr-black
 }
 
 .playsection .row {
     row-gap: 34px;
 }
 
-.playinner h3 {
-    font-size: 27px;
-    margin-bottom: 0;
-}
 
 /*play-conditon-end*/
 

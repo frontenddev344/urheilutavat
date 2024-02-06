@@ -738,6 +738,13 @@ textarea.input-control {
   width: 100%;
   padding: 20px;
 }
+.playinner h3 {
+  font-size: 27px;
+  margin-bottom: 0;
+}
+.playinner p {
+  font-size: 15px;
+}
 
 .playinner:hover {
   background-color: #b8e144;
@@ -747,13 +754,12 @@ textarea.input-control {
   color: #0C0B0B;
 }
 
-.playsection .row {
-  row-gap: 34px;
+.playinner:hover p {
+  color: #0C0B0B;
 }
 
-.playinner h3 {
-  font-size: 27px;
-  margin-bottom: 0;
+.playsection .row {
+  row-gap: 34px;
 }
 
 /*play-conditon-end*/
