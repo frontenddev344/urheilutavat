@@ -88,3 +88,11 @@ h4 {
         font-size: 19px;
     }
 }
+h4 {
+    font-size: 25px;
+    color: $clr-parrot;
+
+    @include mq(xl) {
+        font-size: 19px;
+    }
+}
