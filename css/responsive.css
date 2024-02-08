@@ -29,7 +29,7 @@
     right: 0;
     bottom: 0;
     width: 300px;
-    background: #000000;
+    background: #040d17;
     transition: 0.4s cubic-bezier(0, 0, 0.13, 0.61);
     transform: translateX(-100%);
   }
