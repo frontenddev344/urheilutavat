@@ -439,6 +439,7 @@ p.sportpara {
   max-width: 60%;
   margin: 0 auto;
   border: 1px solid #b8e144;
+  margin-bottom: 30px;
 }
 .about_us_content p {
   color: #fff !important;
