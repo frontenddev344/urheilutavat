@@ -387,6 +387,7 @@ p.sportpara {
     margin: 30px 0;
     max-width: 60%;
     margin: 0 auto;
+    border: 1px solid $clr-parrot;
 
     p {
         color: $clr-white !important;
@@ -615,7 +616,7 @@ textarea.input-control {
     h4 {
         color: $clr-parrot;
         font-size: 21px;
-        margin-bottom: 0;
+        margin-bottom: 6px;
     }
 
     p {

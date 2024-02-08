@@ -438,6 +438,7 @@ p.sportpara {
   margin: 30px 0;
   max-width: 60%;
   margin: 0 auto;
+  border: 1px solid #b8e144;
 }
 .about_us_content p {
   color: #fff !important;
@@ -630,7 +631,7 @@ textarea.input-control {
 .content-wrap h4 {
   color: #b8e144;
   font-size: 21px;
-  margin-bottom: 0;
+  margin-bottom: 6px;
 }
 .content-wrap p {
   font-size: 16px;
