@@ -25,7 +25,6 @@ p {
   display: inline-block;
   border: 1px solid #0C0B0B;
 }
-
 .main-btn a:hover {
   background-color: #fff;
   color: #0C0B0B;
@@ -38,7 +37,6 @@ h1 {
   color: #fff;
   font-family: "Dela Gothic One", sans-serif;
 }
-
 @media screen and (max-width: 1024px) {
   h1 {
     font-size: 35px;
@@ -51,26 +49,26 @@ h1 {
     line-height: 40px;
   }
 }
+
 h2 {
   font-size: 60px;
   line-height: 75px;
   font-weight: 500;
   color: #b8e144;
 }
-
 @media screen and (max-width: 1024px) {
   h2 {
     font-size: 35px;
     line-height: 40px;
   }
 }
+
 h3 {
   font-size: 50px;
   line-height: 55px;
   font-weight: 500;
   color: #fff;
 }
-
 @media screen and (max-width: 1024px) {
   h3 {
     font-size: 35px;
@@ -82,26 +80,27 @@ h3 {
     font-size: 27px;
   }
 }
+
 h4 {
   font-size: 23px;
   color: #040d17;
 }
-
 @media screen and (max-width: 1024px) {
   h4 {
     font-size: 19px;
   }
 }
+
 h4 {
   font-size: 25px;
   color: #b8e144;
 }
-
 @media screen and (max-width: 1024px) {
   h4 {
     font-size: 19px;
   }
 }
+
 * {
   box-sizing: border-box;
 }
@@ -207,7 +206,6 @@ header.site-header.sticky {
   font-weight: 500;
   font-size: 18px;
 }
-
 .site-nav a:hover {
   color: #b8e144;
 }
@@ -220,7 +218,6 @@ header.site-header.sticky {
   border-radius: 26px;
   font-weight: 500;
 }
-
 .site-btn a:hover {
   background-color: #fff;
   color: #0C0B0B;
@@ -257,14 +254,12 @@ header.site-header.sticky {
   padding: 100px 0;
   background: #040d17;
 }
-
 .homebannertext {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
 }
-
 .homebannertext p {
   color: #fff;
   margin: 25px 0;
@@ -285,29 +280,23 @@ p.sportpara {
   justify-content: center;
   height: 100%;
 }
-
 .sportstext p {
   color: #fff;
 }
-
 .sportstext span {
   color: #b8e144;
   font-weight: 600;
 }
-
 .sportstext li i {
   color: #b8e144;
   margin-right: 15px;
 }
-
 .sportstext li {
   color: #fff;
 }
-
 .sportstext h3 {
   margin: 25px 0;
 }
-
 .sportstext ul {
   margin: 25px 0;
 }
@@ -315,10 +304,9 @@ p.sportpara {
 .sportpicture img {
   height: 430px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   max-width: 520px;
 }
-
 .sportpicture img:hover {
   filter: grayscale(7);
 }
@@ -335,7 +323,6 @@ p.sportpara {
   padding: 35px;
   height: 100%;
 }
-
 .tool-cards h4 {
   max-width: 70%;
   margin: 0 auto;
@@ -344,11 +331,9 @@ p.sportpara {
   margin-top: 13px;
   color: #0C0B0B;
 }
-
 .tool-cards img {
   max-width: 60px;
 }
-
 .tool-cards img:hover {
   transform: translateY(-10px);
   transition: 0.3s ease-in-out;
@@ -366,13 +351,11 @@ p.sportpara {
 .card-section {
   background-color: #040d17;
 }
-
 .card-section h2 {
   color: #fff;
   text-align: center;
   margin-bottom: 50px;
 }
-
 .card-section h2 span {
   color: #b8e144;
 }
@@ -381,11 +364,9 @@ p.sportpara {
   background: #040d17;
   padding: 100px 0;
 }
-
 .flexcard-title {
   text-align: center;
 }
-
 .flexcard-main {
   text-align: center;
   display: flex;
@@ -394,25 +375,21 @@ p.sportpara {
   height: 100%;
   margin: 0 10px;
 }
-
 .flexcard-main:hover {
   background-color: #b8e144;
   margin: 0;
   transition: 0.3s ease;
 }
-
 .flexcard-main p {
   font-size: 14px;
 }
-
 .flexcard-main h4 {
   color: #b8e144;
 }
-
 .flexcard-picture img {
   height: 203px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .row.flexcardspace {
@@ -427,28 +404,22 @@ p.sportpara {
   background: #040d17;
   padding: 100px 0;
 }
-
 .information-picture img {
   max-width: 60px;
   margin-bottom: 15px;
 }
-
 .information h3 span {
   color: #b8e144;
 }
-
 .information-card h4 {
   color: #fff;
 }
-
 .information-card h4:hover {
   color: #b8e144;
 }
-
 .information-card span {
   color: #fff;
 }
-
 .information-card span:hover {
   color: #b8e144;
 }
@@ -471,7 +442,6 @@ p.sportpara {
   border: 1px solid #b8e144;
   margin-bottom: 30px;
 }
-
 .about_us_content p {
   color: #fff !important;
   text-align: center;
@@ -513,7 +483,6 @@ textarea.input-control {
   color: #fff;
   text-transform: capitalize;
 }
-
 .form-group .submit-btn:hover {
   background-color: #fff;
   color: #0C0B0B;
@@ -534,47 +503,37 @@ textarea.input-control {
   padding: 50px 0;
   border-top: 1px solid;
 }
-
 .footer-links {
   text-align: center;
 }
-
 .footer-links ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
 }
-
 .footer-logo {
   max-width: 160px;
   margin: 0 auto 20px;
 }
-
 .footer-links h2 {
   color: #fff;
 }
-
 .footer-links a {
   color: #fff;
 }
-
 .footer-links a:hover {
   color: #b8e144;
 }
-
 .footer-adresse h2 {
   color: #fff;
 }
-
 .footer-adresse p {
   color: #fff;
 }
-
 .footer-mails a {
   color: #fff;
 }
-
 .footer-mails {
   display: flex;
   flex-direction: column;
@@ -590,7 +549,6 @@ textarea.input-control {
   margin-top: 25px;
   text-align: center;
 }
-
 .social-signals i {
   color: #fff;
   border-radius: 30px;
@@ -603,7 +561,6 @@ textarea.input-control {
   line-height: 36px;
   transition: 0.3s all;
 }
-
 .social-signals i:hover {
   color: #b8e144;
   transform: translateY(-10px);
@@ -614,15 +571,12 @@ textarea.input-control {
   padding: 10px;
   margin: 30px 0;
 }
-
 .footer_bottom p {
   text-align: center;
 }
-
 .footer_bottom p a {
   color: #fff;
 }
-
 .footer_bottom p a:hover {
   color: #b8e144;
 }
@@ -638,7 +592,7 @@ textarea.input-control {
   background-size: cover;
   background-position: center;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   margin-top: 0;
   isolation: isolate;
   display: flex;
@@ -647,7 +601,6 @@ textarea.input-control {
   align-items: center;
   text-align: center;
 }
-
 .privacy__section::after {
   content: "";
   position: absolute;
@@ -659,7 +612,6 @@ textarea.input-control {
 .privacy-policy {
   padding: 50px 0;
 }
-
 .privacy-policy .content-wrap li {
   font-size: 15px;
   font-weight: 400;
@@ -671,7 +623,6 @@ textarea.input-control {
 .terms {
   padding: 50px 0;
 }
-
 .terms .content-wrap li {
   font-size: 16px;
   font-weight: 400;
@@ -685,7 +636,6 @@ textarea.input-control {
   font-size: 21px;
   margin-bottom: 6px;
 }
-
 .content-wrap p {
   font-size: 16px;
   padding-bottom: 8px;
@@ -702,7 +652,7 @@ textarea.input-control {
   background-size: cover;
   background-position: center;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   margin-top: 0;
   isolation: isolate;
   display: flex;
@@ -711,7 +661,6 @@ textarea.input-control {
   align-items: center;
   text-align: center;
 }
-
 .terms__section::after {
   content: "";
   position: absolute;
@@ -747,7 +696,7 @@ textarea.input-control {
   background-size: cover;
   background-position: center;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   margin-top: 0;
   isolation: isolate;
   display: flex;
@@ -756,7 +705,6 @@ textarea.input-control {
   align-items: center;
   text-align: center;
 }
-
 .contactbanner::after {
   content: "";
   position: absolute;
@@ -780,7 +728,7 @@ textarea.input-control {
   background-size: cover;
   background-position: center;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   margin-top: 0;
   isolation: isolate;
   display: flex;
@@ -789,7 +737,6 @@ textarea.input-control {
   align-items: center;
   text-align: center;
 }
-
 .howplay::after {
   content: "";
   position: absolute;
@@ -812,12 +759,10 @@ textarea.input-control {
   width: 100%;
   padding: 20px;
 }
-
 .playinner h3 {
   font-size: 27px;
   margin-bottom: 0;
 }
-
 .playinner p {
   font-size: 15px;
 }
@@ -849,7 +794,7 @@ textarea.input-control {
   background-size: cover;
   background-position: center;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   margin-top: 0;
   isolation: isolate;
   display: flex;
@@ -858,7 +803,6 @@ textarea.input-control {
   align-items: center;
   text-align: center;
 }
-
 .aboutbanner::after {
   content: "";
   position: absolute;
@@ -877,7 +821,6 @@ h2.abouttitle {
   margin-bottom: 25px;
   color: #fff;
 }
-
 h2.abouttitle span {
   color: #b8e144;
 }
@@ -897,6 +840,4 @@ h3.form-title {
 }
 
 /*about-css-end*/
-
-
 /*# sourceMappingURL=style.css.map */
