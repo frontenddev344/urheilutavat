@@ -827,6 +827,12 @@ h2.abouttitle span {
   row-gap: 25px;
 }
 
+h3.form-title {
+  text-align: center;
+  font-size: 28px;
+  color: #b8e144;
+}
+
 /*about-css-end*/
 
 
